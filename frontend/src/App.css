@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cardLogin{
+  padding: 30px;
+  /* background: rgb(253, 253, 253); */
+  max-width:500px;
+  margin: 20px auto;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.vl {
+  border-left: 1px solid rgb(7, 7, 7);
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top: 190px;
+  top: 0;
+}
+.btnf{
+  background-color: #3b5998;
+  width: 200px;
+}
+.btng{
+  background-color: #DB4437;
+  width: 200px;
+
+}
+.btnt{
+  background-color: #1DA1F2;
+    width: 300px;
+
+}
+.navbg{
+  background-color: #030303;
+}
+.card1 {
+  padding: 30px;
+  /* background: rgb(246, 245, 245); */
+  max-width:800px;
+  /* border-radius: 10px; */
+  margin: 20px auto;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardD {
+  padding: 30px;
+  background: rgb(233, 230, 230);
+  max-width:500px;
+  /* border-radius: 10px; */
+  margin: 20px auto;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cart {
+  padding: 30px;
+  /* background: rgb(246, 245, 245); */
+  max-width:1200px;
+  /* border-radius: 10px; */
+  margin: 20px auto;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btncart{
+  width: 200px;
+  background-color: #f34c68;
+}
+.catbtn{
+  width: 150px;
+}
+.form-control1{
+  border-radius: 20px;
+  /* width:500px;
+  height: 40px; */
+}
+.card-img-top{
+  /* width: 100px; */
+  height: 300px;
+  /* object-fit:initial */
+}
+/*ipad media query*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .btncart{
+    width: 200px;
+  }
+  .catbtn{
+    width: 100px;
+  }
+  
+}
+/*small device*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .vl {
+    border-left: 1px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 190px;
+    top: 0;
+  }
+  
+}
+/*
+
+*/
